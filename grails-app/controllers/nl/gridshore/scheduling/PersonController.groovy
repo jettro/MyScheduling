@@ -2,5 +2,5 @@ package nl.gridshore.scheduling
 
 class PersonController {
 
-    def index = { }
+    def scaffold = true
 }

@@ -2,5 +2,5 @@ package nl.gridshore.scheduling
 
 class ProjectController {
 
-    def index = { }
+    def scaffold = true
 }

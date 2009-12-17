@@ -2,5 +2,5 @@ package nl.gridshore.scheduling
 
 class UserController {
 
-    def index = { }
+    def scaffold = true
 }
