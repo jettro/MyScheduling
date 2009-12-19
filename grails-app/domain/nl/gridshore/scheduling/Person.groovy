@@ -10,4 +10,8 @@ class Person {
         name (blank:false, minSize:2, maxSize:25)
         partTimeFactor(min:0f,max:1f)
     }
+
+    String toString() {
+        return name
+    }
 }
