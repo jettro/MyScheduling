@@ -1,3 +1,6 @@
+import org.joda.time.LocalDate
+import org.joda.time.contrib.hibernate.PersistentLocalDate
+
 // locations to search for config files that get merged into the main config
 // config files can either be Java properties files or ConfigSlurper scripts
 
@@ -41,6 +44,11 @@ grails.enable.native2ascii = true
 grails.logging.jul.usebridge = true
 // packages to include in Spring bean scanning
 grails.spring.bean.packages = []
+
+// joda time additional configuration
+grails.gorm.default.mapping = {
+   'user-type' (type: PersistentLocalDate, class: LocalDate )
+}
 
 // set per-environment serverURL stem for creating absolute links
 environments {
