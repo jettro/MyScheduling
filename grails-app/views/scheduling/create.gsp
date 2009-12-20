@@ -18,9 +18,10 @@
   </div>
 
   <div class="yui-skin-sam">
-    <gui:datePicker id="startDate"/>
-    <gui:datePicker id="endDate"/>
+    <gui:datePicker id="startDate" formatString="yyyy-MM-dd"/>
+    <gui:datePicker id="endDate" formatString="yyyy-MM-dd"/>
   </div>
+  <g:submitButton name="Create"/>
 </g:form>
 </body>
 </html>

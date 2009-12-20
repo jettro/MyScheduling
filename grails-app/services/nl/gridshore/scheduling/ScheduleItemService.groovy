@@ -1,14 +1,23 @@
 package nl.gridshore.scheduling
 
+import org.joda.time.LocalDate
+import org.joda.time.Period
+
 class ScheduleItemService {
 
     boolean transactional = true
 
-    def createScheduleItems(long personId, long projectId,int numberHours,int weekNr,
-                            Date startDate, Date endDate) {
+    def createScheduleItems(String personName, String projectName,int numberHours,LocalDate startDate, LocalDate endDate) {
         // determine the start and end date
-        
-        doCreateScheduleItem(person, project, weekNr, numberHours)
+        def project = Project.findByName(projectName)
+        def person = Person.findByName(personName)
+        // TODO jettro : denk aan probleem met weken over de jaargrens heen
+        // TODO jettro : wellicht een warning als het te lang is??
+        def currentDate = startDate
+        for (int i=startDate.weekOfWeekyear;i<endDate.weekOfWeekyear;i++) {
+            currentDate = currentDate + Period.weeks(1)
+            doCreateScheduleItem(person, project, i, numberHours)
+        }
     }
 
     def createScheduleItem(String personName, String projectName, int weekNr, int numberHours) {

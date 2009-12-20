@@ -1,6 +1,7 @@
 package nl.gridshore.scheduling
 
 import grails.converters.JSON
+import org.joda.time.LocalDate
 
 class SchedulingController {
     def scheduleItemService;
@@ -20,10 +21,18 @@ class SchedulingController {
         def personName = params.person
         def projectName = params.project
         def nrHours = params.nrhours.toInteger()
-        def weekNr = params.weeknr.toInteger()
 
+        def startDateStr = params.startDate
+        def endDateStr = params.endDate
+        if (startDateStr && endDateStr) {
+            LocalDate startDate = new LocalDate(startDateStr)
+            LocalDate endDate = new LocalDate(endDateStr)
+            scheduleItemService.createScheduleItems(personName, projectName, nrHours,startDate,endDate)
+        } else {
+            def weekNr = params.weeknr.toInteger()
+            scheduleItemService.createScheduleItem(personName, projectName, weekNr, nrHours)
+        }
         flash.message = "New item is created for person ${personName} and project ${projectName}"
-        scheduleItemService.createScheduleItem(personName, projectName, weekNr, nrHours)
         redirect(action: "create")
     }
 
