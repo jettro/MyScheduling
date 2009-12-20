@@ -16,6 +16,14 @@
   <nav:render group="tabs"/>
   <nav:renderSubItems group="tabs"/>
 </div>
+<div id="messages">
+  <g:if test="${flash.error}">
+      <div class="flasherror">${flash.error}</div>
+  </g:if>
+  <g:if test="${flash.message}">
+      <div class="flash">${flash.message}</div>
+  </g:if>
+</div>
 <g:layoutBody/>
 </body>
 </html>
