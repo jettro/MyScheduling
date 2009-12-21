@@ -3,6 +3,7 @@ package nl.gridshore.scheduling
 import grails.converters.JSON
 
 class PersonController {
+    def scheduleItemService
 
     def scaffold = true
 
@@ -14,7 +15,7 @@ class PersonController {
         def id = params.id
         if (id) {
             def person = Person.get(id)
-            
+            return [scheduleItems:scheduleItemService.obtainScheduleItemsForPerson(person)]
         } else {
             redirect(action: "planning")
         }

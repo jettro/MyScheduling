@@ -12,8 +12,7 @@
           draggableColumns="true"
           columnDefs="[
             [key:'id', sortable:true, resizeable: true, label:'ID'],
-            [key:'name', sortable:true, resizeable: true, label:'Name'],
-            [key:'partTimeFactor', type:'number', sortable:true, resizeable: true, label: 'Part time factor']
+            [key:'name', sortable:true, resizeable: true, label:'Name']
           ]"
           paginatorConfig="[
             template:'{PreviousPageLink} {PageLinks} {NextPageLink} {CurrentPageReport}',

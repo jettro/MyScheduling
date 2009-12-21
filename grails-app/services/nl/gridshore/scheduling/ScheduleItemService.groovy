@@ -7,6 +7,14 @@ class ScheduleItemService {
 
     boolean transactional = true
 
+    def obtainScheduleItemsForPerson(Person person) {
+        def items = ScheduleItem.findAllByPerson(person)
+        if (!items) {
+            items = []
+        }
+        return items
+    }
+
     def createScheduleItems(String personName, String projectName,int numberHours,LocalDate startDate, LocalDate endDate) {
         // determine the start and end date
         def project = Project.findByName(projectName)

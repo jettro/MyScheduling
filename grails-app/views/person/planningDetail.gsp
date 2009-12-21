@@ -1,13 +1,19 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: jettropro
-  Date: Dec 21, 2009
-  Time: 5:49:46 PM
-  To change this template use File | Settings | File Templates.
---%>
-
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
-  <head><title>Simple GSP page</title></head>
-  <body>Place your content here</body>
+<head>
+  <title>Show all schedule items</title>
+  <meta name="layout" content="main"/>
+  <gui:resources components="dataTable"/>
+</head>
+<body>
+    <table>
+    <g:each in="${scheduleItems}" var="scheduleItem">
+        <tr>
+            <td>${scheduleItem.project.name}</td>
+            <td>${scheduleItem.weekNr}</td>
+            <td>${scheduleItem.nrHours}</td>
+        </tr>
+    </g:each>
+    </table>
+</body>
 </html>
