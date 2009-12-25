@@ -32,7 +32,7 @@ class SchedulingController {
             def weekNr = params.weeknr.toInteger()
             scheduleItemService.createScheduleItem(personName, projectName, weekNr, nrHours)
         }
-        flash.message = "New item is created for person ${personName} and project ${projectName}"
+        flash.message = "New item(s) is created for person ${personName} and project ${projectName}"
         redirect(action: "create")
     }
 

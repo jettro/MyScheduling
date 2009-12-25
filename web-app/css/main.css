@@ -3,6 +3,35 @@ html * {
     /*padding: 0; SELECT NOT DISPLAYED CORRECTLY IN FIREFOX */
 }
 
+/* custom */
+.flash {
+    border:1px solid lightgreen;
+}
+
+.flasherror {
+    border:1px solid red;
+}
+
+/* navigation */
+#sitemenu {
+    float:right;
+}
+
+#sitemenu .navigation li a { background-color: #fff }
+#sitemenu .navigation li.navigation_active a { background-color: #fff; color:#555; text-decoration:underline}
+#sitemenu .navigation li.navigation_active a:hover { background-color: #fff;}
+#sitemenu .navigation li a:hover { background-color: #999; }
+#sitemenu .navigation li a { color: #555; }
+#sitemenu .navigation li a:hover { color: #555; text-decoration:underline}
+#sitemenu .navigation li { border: 1px solid #fff; background-color: #fff }
+
+
+/* changes datepicker */
+.datefield {
+    top:0;
+    left:0;
+    padding:0;
+}
 /* GENERAL */
 
 .spinner {
