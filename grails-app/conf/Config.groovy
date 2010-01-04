@@ -64,6 +64,19 @@ environments {
 
 }
 
+// mail configuration
+grails {    
+    mail {
+        host = "smtp.gmail.com"
+        port = 465
+        username = System.getProperty("gmail.userid") + "@gmail.com"
+        password = System.getProperty("gmail.password")
+        props = ["mail.smtp.auth":"true",
+                 "mail.smtp.socketFactory.port":"465",
+                 "mail.smtp.socketFactory.class":"javax.net.ssl.SSLSocketFactory",
+                 "mail.smtp.socketFactory.fallback":"false"]
+    }
+}
 // log4j configuration
 log4j = {
     // Example of changing the log pattern for the default console

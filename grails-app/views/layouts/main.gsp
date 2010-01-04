@@ -19,7 +19,7 @@
     <div id="sitemenu">
       <nav:render group="sitemenu"/>
     </div>
-    <div id="grailsLogo" class="logo"><a href="http://grails.org"><img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Grails" border="0"/></a></div>
+    <div id="grailsLogo" class="logo"><a href="http://grails.org"><img src="${resource(dir: 'images', file: 'logo_myscheduling.png')}" alt="MyScheduling logo" border="0"/></a></div>
     <div id="menu">
       <nav:render group="tabs"/>
       <nav:renderSubItems group="tabs"/>

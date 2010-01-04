@@ -32,6 +32,11 @@
       <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/joda-time-0.5/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/joda-time-0.5/grails-app/taglib" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/mail-0.9">
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/mail-0.9/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/mail-0.9/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/mail-0.9/grails-app/taglib" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/navigation-1.1">
       <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/navigation-1.1/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/navigation-1.1/grails-app/taglib" isTestSource="false" />
@@ -53,12 +58,14 @@
           <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/tomcat-1.2.0/lib" />
           <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/grails-ui-1.2-SNAPSHOT/lib" />
           <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/db-util-0.4/lib" />
+          <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/mail-0.9/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/db-util-0.4/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/grails-ui-1.2-SNAPSHOT/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/joda-time-0.5/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/mail-0.9/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/tomcat-1.2.0/lib" recursive="false" />
       </library>
     </orderEntry>
