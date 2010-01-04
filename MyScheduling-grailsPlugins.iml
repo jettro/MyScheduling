@@ -16,6 +16,13 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    <content url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/acegi-0.5.2">
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/acegi-0.5.2/src/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/acegi-0.5.2/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/acegi-0.5.2/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/acegi-0.5.2/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/acegi-0.5.2/grails-app/taglib" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/bubbling-2.1.1">
       <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/bubbling-2.1.1/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/bubbling-2.1.1/grails-app/taglib" isTestSource="false" />
@@ -59,9 +66,11 @@
           <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/grails-ui-1.2-SNAPSHOT/lib" />
           <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/db-util-0.4/lib" />
           <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/mail-0.9/lib" />
+          <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/acegi-0.5.2/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/acegi-0.5.2/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/db-util-0.4/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/grails-ui-1.2-SNAPSHOT/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/joda-time-0.5/lib" recursive="false" />
