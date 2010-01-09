@@ -1,4 +1,18 @@
-<p>This application started as a demo project for using grails. I am creating an application that can be used to
-schedule persons on projects by week number.</p>
+This application started as a demo project for using grails. I am creating an application that can be used to
+schedule persons on projects by week number.
 
-More help to follow.
+I try to use plugins that are available and program as little as possible. The following list gives the plugins I use
+next to the plugins that are used out-of-the-box.
+
+- acegi-0.5.2 (access control)
+- bubbling-2.1.1 (comes with the grails-ui plugin)
+- db-util-0.4 (used to look at the database during development)
+- grails-ui-1.2-SNAPSHOT (Creating visual components)
+- joda-time-0.5 (for more control on date and time objects)
+- mail-0.9 (well I guess for sending emails)
+- navigation-1.1 (used for the main and top navigation)
+- yui-2.7.0.1 (comes with the grails-ui plugin)
+
+I am writing a series of blog posts to explain what I am creating:
+http://www.gridshore.nl/2009/12/20/starting-with-grails/
+http://www.gridshore.nl/2010/01/04/continuing-with-grails/
