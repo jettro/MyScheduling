@@ -13,7 +13,9 @@ class MeetingNotes {
         notes type: "text"
     }
 
-    static searchable = true
+    static searchable = {
+        spellCheck "include"
+    }
 
     String toString() {
         return "Week number : ${weekNr}"

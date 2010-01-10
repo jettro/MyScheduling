@@ -18,6 +18,9 @@
   <div id="hd">
     <div id="sitemenu">
       <nav:render group="sitemenu"/>
+      <g:form url='[controller: "searchable", action: "index"]' id="searchableForm" name="searchableForm" method="get">
+        <g:textField name="q" value="${params.q}" size="22"/> <input type="submit" value="Search"/>
+      </g:form>
     </div>
     <div id="grailsLogo" class="logo"><a href="http://grails.org"><img src="${resource(dir: 'images', file: 'logo_myscheduling.png')}" alt="MyScheduling logo" border="0"/></a></div>
     <div id="menu">
