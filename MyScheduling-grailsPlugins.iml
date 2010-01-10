@@ -9,6 +9,7 @@
           <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/grails-ui-1.2-SNAPSHOT/web-app" relative="/" />
           <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/navigation-1.1/web-app" relative="/" />
           <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/db-util-0.4/web-app" relative="/" />
+          <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/searchable-0.5.5/web-app" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -48,6 +49,12 @@
       <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/navigation-1.1/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/navigation-1.1/grails-app/taglib" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/searchable-0.5.5">
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/searchable-0.5.5/src/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/searchable-0.5.5/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/searchable-0.5.5/grails-app/controllers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/searchable-0.5.5/grails-app/services" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/tomcat-1.2.0">
       <sourceFolder url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/tomcat-1.2.0/src/groovy" isTestSource="false" />
     </content>
@@ -67,6 +74,7 @@
           <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/db-util-0.4/lib" />
           <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/mail-0.9/lib" />
           <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/acegi-0.5.2/lib" />
+          <root url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/searchable-0.5.5/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -75,6 +83,7 @@
         <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/grails-ui-1.2-SNAPSHOT/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/joda-time-0.5/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/mail-0.9/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/searchable-0.5.5/lib" recursive="false" />
         <jarDirectory url="file://$MODULE_DIR$/../../.grails/1.2.0/projects/MyScheduling/plugins/tomcat-1.2.0/lib" recursive="false" />
       </library>
     </orderEntry>

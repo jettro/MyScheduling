@@ -13,4 +13,9 @@ class MeetingNotes {
         notes type: "text"
     }
 
+    static searchable = true
+
+    String toString() {
+        return "Week number : ${weekNr}"
+    }
 }

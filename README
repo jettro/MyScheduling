@@ -12,6 +12,7 @@ next to the plugins that are used out-of-the-box.
 - mail-0.9 (well I guess for sending emails)
 - navigation-1.1 (used for the main and top navigation)
 - yui-2.7.0.1 (comes with the grails-ui plugin)
+- searchable-0.5.5 (plugin using compass and lucene to make you groovy domain objects searchable)
 
 I am writing a series of blog posts to explain what I am creating:
 http://www.gridshore.nl/2009/12/20/starting-with-grails/
