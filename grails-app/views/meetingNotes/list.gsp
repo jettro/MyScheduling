@@ -5,6 +5,7 @@
   <meta name="layout" content="main"/>
   <g:set var="entityName" value="${message(code: 'meetingNotes.label', default: 'MeetingNotes')}"/>
   <title><g:message code="default.list.label" args="[entityName]"/></title>
+  <feed:meta kind="rss" version="2.0" controller="meetingNotes" action="feed"/>
 </head>
 <body>
 <div class="body">
