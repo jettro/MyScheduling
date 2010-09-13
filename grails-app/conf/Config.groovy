@@ -1,5 +1,5 @@
-import org.joda.time.LocalDate
-import org.joda.time.contrib.hibernate.PersistentLocalDate
+//import org.joda.time.LocalDate
+//import org.joda.time.contrib.hibernate.PersistentLocalDate
 
 // locations to search for config files that get merged into the main config
 // config files can either be Java properties files or ConfigSlurper scripts
@@ -46,9 +46,9 @@ grails.logging.jul.usebridge = true
 grails.spring.bean.packages = []
 
 // joda time additional configuration
-grails.gorm.default.mapping = {
-   'user-type' (type: PersistentLocalDate, class: LocalDate )
-}
+//grails.gorm.default.mapping = {
+//   'user-type' (type: PersistentLocalDate, class: LocalDate )
+//}
 
 // set per-environment serverURL stem for creating absolute links
 environments {
@@ -108,3 +108,15 @@ log4j = {
 //log4j.logger.org.springframework.security='off,stdout'
 
 //log4j.logger.org.springframework.security='off,stdout'
+
+// Added by the Joda-Time plugin:
+grails.gorm.default.mapping = {
+	"user-type" type: org.joda.time.contrib.hibernate.PersistentDateTime, class: org.joda.time.DateTime
+	"user-type" type: org.joda.time.contrib.hibernate.PersistentDuration, class: org.joda.time.Duration
+	"user-type" type: org.joda.time.contrib.hibernate.PersistentInstant, class: org.joda.time.Instant
+	"user-type" type: org.joda.time.contrib.hibernate.PersistentInterval, class: org.joda.time.Interval
+	"user-type" type: org.joda.time.contrib.hibernate.PersistentLocalDate, class: org.joda.time.LocalDate
+	"user-type" type: org.joda.time.contrib.hibernate.PersistentLocalTimeAsString, class: org.joda.time.LocalTime
+	"user-type" type: org.joda.time.contrib.hibernate.PersistentLocalDateTime, class: org.joda.time.LocalDateTime
+	"user-type" type: org.joda.time.contrib.hibernate.PersistentPeriod, class: org.joda.time.Period
+}
